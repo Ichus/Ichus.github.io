@@ -11,6 +11,12 @@ activate :blog do |blog|
 
 end
 
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch = "master"
+  deploy.build_before = true
+end
+
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -47,7 +53,7 @@ end
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def list_projects(index)
-#     
+#
 #   end
 # end
 
