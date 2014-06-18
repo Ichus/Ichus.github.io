@@ -18,3 +18,6 @@ gem "middleman-blog"
 
 # Deploy middleman to git-hub
 gem "middleman-deploy"
+
+# Require gem for foundation
+gem "foundation-rails", :require => false

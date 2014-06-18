@@ -9,7 +9,7 @@ title: Ichus Projects
     <ul>
       <% index = 0 %>
       <% while index < data.projects[:name].length %>
-        <li><%= link_to data.projects[:name][index], data.projects[:url][index] %></li>
+        <li class="no-underline"><%= link_to data.projects[:name][index], data.projects[:url][index] %></li>
         <% index += 1 %>
       <% end %>
     </ul>
