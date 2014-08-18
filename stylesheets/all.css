@@ -6,8 +6,8 @@
 
 body {
   background-image: url("../images/Spigneus.png");
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   background-repeat: no-repeat;
   text-align: center;
   font-family: sans-serif; }
