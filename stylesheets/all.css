@@ -5,10 +5,9 @@
 */
 
 body {
-  
+  background-image: url("../images/Spigneus.png");
   text-align: center;
-  font-family: sans-serif;
-  background-image: image-url('Spigneus.png');  }
+  font-family: sans-serif; }
 
 
 h1 {
