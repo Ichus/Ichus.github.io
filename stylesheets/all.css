@@ -45,6 +45,8 @@ h3 {
   color: rgba(0, 0, 0, 0.6);
 }
 
+.white-text { color: white; }
+
 .link-list {
   text-align: left;
 
